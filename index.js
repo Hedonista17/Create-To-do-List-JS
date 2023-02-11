@@ -1,5 +1,10 @@
-const ToDoForm =document.querySelector("#todo")
 
+let Task = [{
+    title:"",
+    description:"",
+    isReady: false,  
+}]
+const ToDoForm =document.querySelector("#todo")
 
 ToDoForm.addEventListener("change", event =>{
 console.log(event.target.value);
